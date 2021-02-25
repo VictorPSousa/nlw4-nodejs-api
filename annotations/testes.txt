@@ -1,0 +1,14 @@
+Testes Automatizados
+
+1 - Testes unitários (determinada funcionalidade - função): usado para o TDD (sem BD e sem API externa)
+
+2 - Testes de integração (testa a funcionalidade completa da aplicação)
+    request -> routes -> controller -> repository -> 
+    <- repository <- controller <- response
+
+3 - Ponta a ponta (E2E) (front-end - testa todo o caminho do usuário)
+
+======
+
+Parei aula 3 - 1:03
+problemas ao executar o teste - var de ambiente
